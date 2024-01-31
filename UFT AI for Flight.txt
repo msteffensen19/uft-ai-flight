@@ -1,3 +1,4 @@
+' Requires UFT One version 23.4 or later
 SystemUtil.Run "C:\Program Files (x86)\OpenText\UFT One\samples\Flights Application\FlightsGUI.exe"
 AIUtil.SetContext Window("regexpwndtitle:=OpenText MyFlight Sample Application")
 AIUtil("text_box", "Username").Type "john"
